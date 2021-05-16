@@ -1,0 +1,86 @@
+{
+  "data": {
+    "day_flavor": {
+        "id": 1,
+        "name": "napolitana média",
+        "ingredients": "mussarela, peito de peru, palmito, parmesão, orégano.",
+        "dough": "napolitana",
+        "type": "day_flavor",
+        "points": 50,
+        "price": 29.00,
+        "image": "https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+      },
+    "doughs": [
+      {
+        "id": 1,
+        "name": "nova-iorquina",
+        "type": "dough",
+        "description": "Frequentemente vendida em fatias grandes e largas, a pizza ao estilo de Nova York tem uma massa mais grossa e é levemente crocante por fora. Dessa forma, são consumidas sem talheres. É bastante comum que as fatias sejam dobradas, facilitando o consumo por parte dos clientes. Normalmente são assadas em temperaturas mais baixas, em fornos a gás.",
+        "price": 21.00
+      },
+      {
+        "id": 2,
+        "name": "siciliana",
+        "type": "dough",
+        "description": "A pizza siciliana é conhecida por sua massa grossa em forma de retângulo, geralmente com mais de um centímetro de espessura. A saber, pode ser feita em qualquer formato de assadeira untada com azeite, o que a deixa bem crocante no fundo.  Se você gosta da pizza tradicional da Sicília, a farinha de rosca fica por cima dos ingredientes. Além disso, ainda existe a opção de ralar um queijo para finalizar o perfil de sabor.",
+        "price": 25.00
+      },
+      {
+        "id": 3,
+        "name": "napolitana",
+        "type": "dough",
+        "description": "O modo napolitano de preparo é considerado um Patrimônio Cultural Imaterial da Humanidade pela Unesco. Acima de tudo,  a massa napolitana deve atender a um conjunto muito específico. Seu sabor e textura únicos, precisam ser assados em um forno a lenha com cúpula. Além disso,  a massa deve ser amassada à mão, com no máximo 35 centímetros de diâmetro e no máximo um terço de centímetro de espessura.",
+        "price": 27.00
+      }
+    ],
+    "sizes": [
+      {
+        "id": 1,
+        "name": "pequena",
+        "description": "Serve até 2 pessoas",
+        "type": "size",
+        "price": 0.00
+      },
+      {
+        "id": 2,
+        "name": "média",
+        "description": "Serve até 4 pessoas",
+        "type": "size",
+        "price": 14.00
+      },
+      {
+        "id": 3,
+        "name": "grande",
+        "description": "Serve até 6 pessoas",
+        "type": "size",
+        "price": 16.00
+      }
+    ],
+    "filling": [
+      {
+        "id": 1,
+        "name": "napolitana",
+        "type": "filling",
+        "description": "Molho de tomate, mussarela de búfala, tomates em rodelas, parmesão, azeitonas",
+        "price": 0.00,
+        "image": "https://images.unsplash.com/photo-1596818531679-96ef98b9a497?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+      },
+      {
+        "id": 2,
+        "name": "parma e rúcula",
+        "type": "filling",
+        "description": "Molho de tomate, mussarela de búfala, rúcula, presunto parma, parmesão e raspas de limão siciliano",
+        "price": 10.00,
+        "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+      },
+      {
+        "id": 3,
+        "name": "pepperoni",
+        "type": "filling",
+        "description": "Molho de tomate, mussarela de búfala, salame pepperoni fatiado e orégano",
+        "price": 14.00,
+        "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80"
+      }
+    ]
+  }
+}
