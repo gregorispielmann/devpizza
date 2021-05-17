@@ -47,6 +47,8 @@ $ git clone https://github.com/gregorispielmann/devpizza.git
 
 ### Demo
 
+[Online Demo](https://devpizzaapp.netlify.app/)
+
 <div style="display: flex;">
 
 <img src="screenshots/screenshot1.png" width="49%">
