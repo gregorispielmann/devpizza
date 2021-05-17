@@ -45,8 +45,6 @@ A step by step series of examples that tell you how to get a development env run
 $ git clone https://github.com/gregorispielmann/devpizza.git
 ```
 
-### Mobile (:apple: iOS and :robot: Android)
-
 ### Demo
 
 <div style="display: flex;">
