@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import { Prompt, useHistory } from 'react-router-dom';
+import { VscDebugRestart } from 'react-icons/vsc';
 
 import Logo from '../../components/Logo';
 import Stepper from '../../components/Stepper';
+import Button from '../../components/Button';
 
 import { Container, Row, Col } from './styles';
 
@@ -69,6 +71,14 @@ const Finish: React.FC = () => {
             </p>
           )}
         </Col>
+      </Row>
+
+      <Row>
+        <Button color="transparent" onClick={() => history.push('/')}>
+          <h2>
+            <VscDebugRestart /> Quero fazer um novo pedido!
+          </h2>
+        </Button>
       </Row>
     </Container>
   );

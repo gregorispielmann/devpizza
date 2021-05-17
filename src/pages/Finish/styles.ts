@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  overflow-y: scroll;
+  overflow-y: auto;
 
   padding: 20px 50px;
   position: absolute;
