@@ -20,7 +20,7 @@ const Logo: React.FC = () => {
       <Points>
         {data?.name && <h2>Olá {data?.name?.split(' ')[0]}!</h2>}
         <h3>DevPoints</h3>
-        <h5>{data?.points} pontos</h5>
+        <h5>{data?.points || 0} pontos</h5>
         {data?.total > 0 && <h5>Total {formatMoney(data?.total)}</h5>}
       </Points>
     </Row>
